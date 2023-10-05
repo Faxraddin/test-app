@@ -5,7 +5,7 @@ function findLongestWordWithMostVowels(sentence) {
       .filter(word => word.length > 0);
   
     if (!words.length) {
-      return null; 
+      return null; // No valid words found
     }
   
     // Find the length of the longest word
